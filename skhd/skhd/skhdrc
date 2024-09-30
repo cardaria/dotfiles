@@ -20,7 +20,7 @@ ctrl + alt - s : yabai -m window --warp east
 shift + alt - l : yabai -m space --rotate 270
 
 # maximize a window
-alt - f : /Users/cardaria/toggle_fullscreen.sh
+alt - f : /Users/cardaria/dotfiles/yabai/yabai/scripts/toggle_fullscreen.sh
 
 
 # focus different spaces

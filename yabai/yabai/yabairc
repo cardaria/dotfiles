@@ -53,28 +53,26 @@ yabai -m rule --add app="^1Password$" manage=off
 
 
 # Trigger the script when a window is created
-yabai -m signal --add event=window_created action="~/test.sh"
+yabai -m signal --add event=window_created action="/Users/cardaria/dotfiles/yabai/yabai/scripts/auto_padding.sh"
 
 # Trigger the script when a window is destroyed
-yabai -m signal --add event=window_destroyed action="~/test.sh"
+yabai -m signal --add event=window_destroyed action="/Users/cardaria/dotfiles/yabai/yabai/scripts/auto_padding.sh"
 
 # Trigger the script when a window is minimized
-yabai -m signal --add event=window_minimized action="~/test.sh"
+yabai -m signal --add event=window_minimized action="/Users/cardaria/dotfiles/yabai/yabai/scripts/auto_padding.sh"
 
 # Trigger the script when a window is restored (deminimized)
-yabai -m signal --add event=window_deminimized action="~/test.sh"
+yabai -m signal --add event=window_deminimized action="/Users/cardaria/dotfiles/yabai/yabai/scripts/auto_padding.sh"
 
 # Trigger the script when an application is hidden
-yabai -m signal --add event=application_hidden action="~/test.sh"
+yabai -m signal --add event=application_hidden action="/Users/cardaria/dotfiles/yabai/yabai/scripts/auto_padding.sh"
 
 # Trigger the script when an application becomes visible
-yabai -m signal --add event=application_visible action="~/test.sh"
+yabai -m signal --add event=application_visible action="/Users/cardaria/dotfiles/yabai/yabai/scripts/auto_padding.sh"
 
+# Trigger the script when space changed
+yabai -m signal --add event=space_changed action="/Users/cardaria/dotfiles/yabai/yabai/scripts/auto_padding.sh"
 
-# Automatically adjust padding when window is created, destroyed, or minimized
-# yabai -m signal --add event=window_created action="~/auto_padding.py"
-# yabai -m signal --add event=window_destroyed action="~/auto_padding.py"
-# yabai -m signal --add event=window_minimized action="~/auto_padding.py"
-# yabai -m signal --add event=window_deminimized action="~/auto_padding.py"
-# yabai -m signal --add event=application_hidden action="~/auto_padding.py"
-# yabai -m signal --add event=application_visible action="~/auto_padding.py"
+# Focus window under mouse when app closed or destroyed
+yabai -m signal --add event=window_destroyed action="yabai -m query --windows --window &> /dev/null || yabai -m window --focus mouse"
+yabai -m signal --add event=application_terminated action="yabai -m query --windows --window &> /dev/null || yabai -m window --focus mouse"
