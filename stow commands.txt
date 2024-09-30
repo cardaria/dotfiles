@@ -1,0 +1,10 @@
+stow -t ~/.config --ignore='.DS_Store' nvim
+stow -t ~/.config --ignore='.DS_Store' skhd
+stow -t ~/.config --ignore='.DS_Store' starship
+stow -t ~/.config --ignore='.DS_Store' wezterm
+stow -t ~/.config --ignore='.DS_Store' yabai
+stow -t '/Users/cardaria/Library/Mobile Documents/com~apple~CloudDocs/The Cloud/3. Resources/Databaser/Obsidian/notes' --ignore='.DS_Store' obsidian
+
+
+stow -t ~/ --ignore='.DS_Store' zsh
+stow -t ~/ --ignore='.DS_Store' ideavimrc
