@@ -1,0 +1,6 @@
+
+/* Smooth cursor blinking */
+.ͼ1.cm-focused .cm-cursorLayer {
+  animation: ease cm-blink 1s infinite !important;
+}
+

@@ -1,0 +1,12 @@
+{
+  "accentColor": "#000000",
+  "showViewHeader": false,
+  "textFontFamily": "Berkeley Mono",
+  "interfaceFontFamily": "Berkeley Mono",
+  "monospaceFontFamily": "Berkeley Mono",
+  "cssTheme": "",
+  "baseFontSize": 17,
+  "enabledCssSnippets": [
+    "custom copy"
+  ]
+}

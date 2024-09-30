@@ -1,0 +1,179 @@
+{
+  "main": {
+    "id": "725f231dc6f68475",
+    "type": "split",
+    "children": [
+      {
+        "id": "c7f87cfaac9bc8f6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "15c2cb542b806366",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "5251c56cafad6bac",
+    "type": "split",
+    "children": [
+      {
+        "id": "4f15e7f434139f10",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2ea1176aadb4922c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8b29e3236f6685f2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "324c20bf53bdcec0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "9a0b5733823682bb",
+    "type": "split",
+    "children": [
+      {
+        "id": "86cbc1bd90f178d6",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "23fb5c9823ebf8a4",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "02ee52ac3d07e415",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4ba4acf1f99af3c9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "c0f93147f93d25fd",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "zk-prefixer:Create new unique note": false,
+      "file-cleaner-redux:Clean files": false
+    }
+  },
+  "active": "15c2cb542b806366",
+  "lastOpenFiles": [
+    "1. Inbox/202409211737.md",
+    "1. Inbox/yabai auto padding.md",
+    "1. Inbox/202409281649.md",
+    "6. KTH/DA1600/Uppgift 2/Utkast.md",
+    "2. Zettlekasten/202409211725.md",
+    "6. KTH/DA1600/Uppgift 2",
+    "6. KTH/DA1600",
+    "6. KTH",
+    "1. Inbox/202409211729.md",
+    "1. Inbox/Keyboard dead keys configuration.md",
+    "1. Inbox/202409211719.md",
+    "4. Templates/my_template.md",
+    "1. Inbox/202409211720.md",
+    "1. Inbox/202409211718.md",
+    "1. Inbox/202409211717.md",
+    "1. Inbox/202409211716.md",
+    "1. Inbox/202409211715.md",
+    "4. Templates/zetteltemplate.md",
+    "1. Inbox/202409211714.md",
+    "3. Journal/2024-09-17.md",
+    "5. Archive",
+    "Inbox/Untitled.md",
+    "4. Templates",
+    "Inbox/202409211704.md",
+    "Untitled 1.md",
+    "Untitled.md",
+    "Inbox/Untitled 2.md",
+    "Inbox/Untitled 1.md",
+    "2. Zettlekasten",
+    "1. Inbox",
+    "3. Journal"
+  ]
+}

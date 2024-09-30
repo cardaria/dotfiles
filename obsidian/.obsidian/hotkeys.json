@@ -1,0 +1,167 @@
+{
+  "global-search:open": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "F"
+    }
+  ],
+  "daily-notes": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "D"
+    }
+  ],
+  "workspace:new-tab": [],
+  "editor:open-link-in-new-leaf": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "Enter"
+    }
+  ],
+  "workspace:close": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "C"
+    }
+  ],
+  "workspace:next-tab": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "Tab"
+    }
+  ],
+  "workspace:previous-tab": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "Tab"
+    }
+  ],
+  "app:open-settings": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": ","
+    }
+  ],
+  "switcher:open": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "O"
+    }
+  ],
+  "editor:save-file": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "S"
+    }
+  ],
+  "insert-template": [
+    {
+      "modifiers": [
+        "Alt",
+        "Ctrl",
+        "Mod",
+        "Shift"
+      ],
+      "key": "T"
+    }
+  ],
+  "zk-prefixer": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "N"
+    }
+  ],
+  "file-explorer:new-file": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "N"
+    }
+  ],
+  "editor:toggle-fold-properties": [
+    {
+      "modifiers": [
+        "Alt",
+        "Mod",
+        "Shift"
+      ],
+      "key": "M"
+    }
+  ],
+  "command-palette:open": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "P"
+    }
+  ],
+  "markdown:add-metadata-property": [],
+  "file-explorer:new-file-in-new-pane": [],
+  "app:delete-file": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "X"
+    }
+  ],
+  "editor:delete-paragraph": [],
+  "editor:follow-link": [],
+  "workspace:goto-last-tab": [],
+  "workspace:goto-tab-1": [],
+  "workspace:goto-tab-3": [],
+  "workspace:goto-tab-2": [],
+  "workspace:goto-tab-4": [],
+  "workspace:goto-tab-7": [],
+  "workspace:goto-tab-6": [],
+  "workspace:goto-tab-5": [],
+  "workspace:goto-tab-8": [],
+  "graph:open": [],
+  "editor:insert-link": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "K"
+    }
+  ],
+  "editor:insert-mathblock": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "M"
+    }
+  ],
+  "app:go-back": [],
+  "app:go-forward": [],
+  "editor:open-link-in-new-window": [],
+  "editor:open-link-in-new-split": []
+}

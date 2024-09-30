@@ -1,0 +1,18 @@
+{
+  "showLineNumber": true,
+  "vimMode": true,
+  "newFileLocation": "folder",
+  "newFileFolderPath": "1. Inbox",
+  "promptDelete": false,
+  "alwaysUpdateLinks": true,
+  "readableLineLength": true,
+  "showInlineTitle": false,
+  "propertiesInDocument": "visible",
+  "pdfExportSettings": {
+    "includeName": false,
+    "pageSize": "Letter",
+    "landscape": false,
+    "margin": "0",
+    "downscalePercent": 100
+  }
+}

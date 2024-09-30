@@ -1,0 +1,187 @@
+" --- Custom Movement Keybindings based on your split keyboard layout ---
+set encoding=utf-8
+let mapleader = " "
+
+""" Plugins ---------------
+""" Note: Easymotion needs to be installed separately, also install AceJump, also which-key
+set surround
+set highlightedyank
+set nerdtree
+set easymotion
+set timeoutlen = 500
+set number
+set relativenumber
+set commentary
+set multiple-cursors
+" Remap multiple-cursors shortcuts to match terryma/vim-multiple-cursors
+nmap <leader>mn <Plug>NextWholeOccurrence
+xmap <leader>mn <Plug>NextWholeOccurrence
+nmap <leader>mN <Plug>NextOccurrence
+xmap <leader>mN <Plug>NextOccurrence
+xmap <leader>ms <Plug>SkipOccurrence
+xmap <leader>mr <Plug>RemoveOccurrence
+nmap <leader>ma <Plug>AllWholeOccurrences
+xmap <leader>ma <Plug>AllWholeOccurrences
+nmap <leader>mA <Plug>AllOccurrences
+xmap <leader>mA <Plug>AllOccurrences
+
+
+set which-key
+let g:WhichKey_ShowTypedSequence = "false"
+let g:WhichKey_DefaultDelay = 0
+let g:WhichKey_FontSize = 16
+let g:WhichKey_CommandColor = "#000000"
+let g:WhichKey_PrefixColor = "#000000"
+let g:WhichKey_SortOrder = "by_key_prefix_first"
+
+let g:WhichKeyDesc_leader = "<leader> Leader key"
+let g:WhichKeyDesc_leader = "<leader>f Open file explorer"
+
+let g:WhichKeyDesc_easymotion = "<leader>n"
+let g:WhichKeyDesc_easymotion_prefix = "<leader><leader>"
+
+let g:WhichKeyDesc_comment = "<leader>c Comment line"
+
+let g:WhichKeyDesc_display = "<leader>d Display options"
+let g:WhichKeyDesc_zen_mode = "<leader>dz Toggle Zen mode"
+let g:WhichKeyDesc_df_mode = "<leader>dd Toggle Distraction-Free mode"
+let g:WhichKeyDesc_fullscreen = "<leader>df Toggle full screen"
+
+let g:WhichKeyDesc_fold = "<leader>z Folding"
+let g:WhichKeyDesc_fold_all = "<leader>zc Fold all regions"
+let g:WhichKeyDesc_unfold_all = "<leader>zo Unfold all regions"
+
+let g:WhichKeyDesc_o = "<leader>o"
+let g:WhichKeyDesc_O = "<leader>O"
+
+let g:WhichKeyDesc_Multicursor = "<leader>m Multicursor"
+let g:WhichKeyDesc_Multicursor_NextWholeOccurence = "<leader>mn Next Whole Occurence"
+let g:WhichKeyDesc_Multicursor_NextOccurence = "<leader>mN Next Occurence"
+let g:WhichKeyDesc_Multicursor_SkipOccurence = "<leader>ms Skip Occurence"
+let g:WhichKeyDesc_Multicursor_RemoveOccurence = "<leader>mr Remove Occurence"
+let g:WhichKeyDesc_Multicursor_AllWholeOccurence = "<leader>ma All Whole Occurence"
+let g:WhichKeyDesc_Multicursor_AllOccurence = "<leader>mA All Occurence"
+
+""" General settings
+set scrolloff=5
+set showmode
+set showcmd
+set visualbell
+set clipboard+=unnamed
+
+""" Search improvements
+set ignorecase
+set smartcase
+set incsearch
+set hlsearch
+
+""" Idea specific settings
+set ideajoin
+set ideastatusicon=gray
+
+" Pane navigation
+nnoremap <A-h> <C-w>t
+nnoremap <A-j> <C-w>n
+nnoremap <A-k> <C-w>m
+nnoremap <A-l> <C-w>g
+
+" Jump between methods
+nnoremap [[ :action MethodUp<CR>
+nnoremap ]] :action MethodDown<CR>:
+" Easy visual indentation
+vnoremap < <gv
+vnoremap > >gv
+
+" Popup navigation
+inoremap <C-n> :action EditorDown<CR>
+inoremap <C-m> :action EditorUp<CR>
+inoremap <C-t> :action EditorLeft<CR>
+inoremap <C-s> :action EditorRight<CR>
+
+" scroll
+
+noremap <C-f> <C-d>
+noremap <C-d> <C-u>
+
+"" Highlight search clear ---------------
+nmap <esc><esc> :noh<return>
+
+" Comment lines
+map <leader>c :action CommentByLineComment<CR>
+
+" Jump around with easymotion
+map <leader>n <Plug>(easymotion-s)
+
+" Open NERDTree (use q to exit)
+map <leader>f :NERDTreeToggle<CR>
+
+" Folding
+map <leader>zc :action CollapseAllRegions<CR>
+map <leader>zo :action ExpandAllRegions<CR>
+
+" Window splits (Set shortcuts for window split operations, and group them under the <leader>w group.)
+map <leader>wv <Action>(SplitVertically)
+map <leader>ws <Action>(SplitHorizontally)
+map <leader>wu <Action>(Unsplit)
+map <leader>wm <Action>(MoveEditorToOppositeTabGroup)
+
+" Display options
+map <leader>dd <action>(ToggleDistractionFreeMode)
+map <leader>dz <action>(ToggleZenMode)
+map <leader>df <action>(ToggleFullScreen)
+
+" Insert empty line below or above and re-enter normal mode
+nmap oo m`o<Esc>``
+nmap OO m`O<Esc>``
+
+" Refactoring
+map <leader>rr :action Refactorings.QuickListPopupAction<CR>
+
+" Movement in Normal Mode ---------------
+noremap t h
+noremap n j
+noremap m k
+noremap s l
+
+noremap T H
+noremap S L
+
+" --- Movement in Visual Mode ---------------
+vnoremap t h
+vnoremap n j
+vnoremap m k
+vnoremap s l
+vnoremap T H
+vnoremap S L
+
+" Next matching search pattern and previous match ---------------
+noremap j n
+noremap J N
+
+" Map gN to join below line without space in between (like gJ used to do)
+noremap N J
+
+" prev word, next word and end next word ---------------
+noremap h b
+noremap H B
+noremap k w
+noremap K W
+noremap b e
+noremap B E
+
+vnoremap h w
+vnoremap H W
+vnoremap k b
+vnoremap K B
+vnoremap b e
+vnoremap B E
+
+"" BOL, EOL and Soft BOL
+noremap å 0
+noremap ö $
+noremap Å _
+
+noremap ä s
+noremap Ä S
+
+
