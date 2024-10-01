@@ -108,75 +108,74 @@ config.cursor_blink_rate = 600
 config.animation_fps = 144
 
 -- tmux
-config.leader = { key = "q", mods = "ALT", timeout_milliseconds = 2000 }
 config.keys = {
     {
-        mods = "LEADER",
+        mods = "CTRL",
         key = "c",
         action = wezterm.action.SpawnTab "CurrentPaneDomain",
     },
     {
-        mods = "LEADER",
-        key = "q",
+        mods = "CTRL",
+        key = "x",
         action = wezterm.action.CloseCurrentPane { confirm = true }
     },
     {
-        mods = "LEADER",
+        mods = "CTRL",
         key = "k",
         action = wezterm.action.ActivateTabRelative(-1)
     },
     {
-        mods = "LEADER",
+        mods = "CTRL",
         key = "b",
         action = wezterm.action.ActivateTabRelative(1)
     },
     {
-        mods = "LEADER",
-        key = "i",
+        mods = "CTRL",
+        key = "ö",
         action = wezterm.action.SplitHorizontal { domain = "CurrentPaneDomain" }
     },
     {
-        mods = "LEADER",
-        key = "y",
+        mods = "CTRL",
+        key = "å",
         action = wezterm.action.SplitVertical { domain = "CurrentPaneDomain" }
     },
     {
-        mods = "LEADER",
+        mods = "CTRL",
         key = "t",
         action = wezterm.action.ActivatePaneDirection "Left"
     },
     {
-        mods = "LEADER",
+        mods = "CTRL",
         key = "n",
         action = wezterm.action.ActivatePaneDirection "Down"
     },
     {
-        mods = "LEADER",
-        key = "m",
+        mods = "CTRL",
+        key = "j",
         action = wezterm.action.ActivatePaneDirection "Up"
     },
     {
-        mods = "LEADER",
+        mods = "CTRL",
         key = "s",
         action = wezterm.action.ActivatePaneDirection "Right"
     },
     {
-        mods = "LEADER",
+        mods = "CTRL",
         key = "LeftArrow",
         action = wezterm.action.AdjustPaneSize { "Left", 5 }
     },
     {
-        mods = "LEADER",
+        mods = "CTRL",
         key = "RightArrow",
         action = wezterm.action.AdjustPaneSize { "Right", 5 }
     },
     {
-        mods = "LEADER",
+        mods = "CTRL",
         key = "DownArrow",
         action = wezterm.action.AdjustPaneSize { "Down", 5 }
     },
     {
-        mods = "LEADER",
+        mods = "CTRL",
         key = "UpArrow",
         action = wezterm.action.AdjustPaneSize { "Up", 5 }
     },

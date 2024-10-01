@@ -11,6 +11,7 @@ yabai -m config layout bsp
 yabai -m space 1 --label general
 yabai -m space 2 --label todos
 yabai -m space 3 --label media
+yabai -m space 4 --label misc
 
 # Set all padding and gaps to 20pt (default: 0)
 yabai -m config top_padding    10
@@ -42,6 +43,7 @@ yabai -m rule --add app="^Calendar$" space=^todos
 yabai -m rule --add app="^Reminders$" space=^todos
 yabai -m rule --add app="^Discord$" space=^media
 yabai -m rule --add app="^Spotify$" space=^media
+yabai -m rule --add app="^NVIDIA GeForce NOW$" space=^misc
 
 
 # yabai -m config external_bar all:24:0
@@ -49,6 +51,7 @@ yabai -m rule --add app="^Spotify$" space=^media
 # float system preferences
 yabai -m rule --add app="^System Settings$" manage=off
 yabai -m rule --add app="^1Password$" manage=off
+yabai -m rule --add app="^Finder$" manage=off
 
 
 

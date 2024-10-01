@@ -1,6 +1,6 @@
 # Custom location for starship
 export STARSHIP_CONFIG=~/.config/starship/starship.toml
-
+export FZF_DEFAULT_OPTS='--bind ctrl-n:down,ctrl-j:up'
 source /opt/homebrew/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 source /opt/homebrew/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
