@@ -3,7 +3,7 @@
   "vimMode": true,
   "newFileLocation": "folder",
   "newFileFolderPath": "1. Inbox",
-  "promptDelete": false,
+  "promptDelete": true,
   "alwaysUpdateLinks": true,
   "readableLineLength": true,
   "showInlineTitle": false,
@@ -14,5 +14,7 @@
     "landscape": false,
     "margin": "0",
     "downscalePercent": 100
-  }
+  },
+  "strictLineBreaks": false,
+  "foldHeading": true
 }

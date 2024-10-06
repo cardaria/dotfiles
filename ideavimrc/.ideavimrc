@@ -131,8 +131,8 @@ map <leader>dz <action>(ToggleZenMode)
 map <leader>df <action>(ToggleFullScreen)
 
 " Insert empty line below or above and re-enter normal mode
-nmap oo m`o<Esc>``
-nmap OO m`O<Esc>``
+nmap oo o<Esc>
+nmap OO O<Esc>
 
 " Refactoring
 map <leader>rr :action Refactorings.QuickListPopupAction<CR>

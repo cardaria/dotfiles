@@ -86,20 +86,11 @@
       "key": "T"
     }
   ],
-  "zk-prefixer": [
-    {
-      "modifiers": [
-        "Alt",
-        "Mod",
-        "Shift"
-      ],
-      "key": "N"
-    }
-  ],
   "file-explorer:new-file": [
     {
       "modifiers": [
-        "Ctrl"
+        "Ctrl",
+        "Shift"
       ],
       "key": "N"
     }
@@ -163,5 +154,30 @@
   "app:go-back": [],
   "app:go-forward": [],
   "editor:open-link-in-new-window": [],
-  "editor:open-link-in-new-split": []
+  "editor:open-link-in-new-split": [],
+  "zk-prefixer": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "N"
+    }
+  ],
+  "file-cleaner-redux:clean-files": [
+    {
+      "modifiers": [
+        "Ctrl",
+        "Shift"
+      ],
+      "key": "X"
+    }
+  ],
+  "editor:toggle-bold": [
+    {
+      "modifiers": [
+        "Ctrl"
+      ],
+      "key": "B"
+    }
+  ]
 }

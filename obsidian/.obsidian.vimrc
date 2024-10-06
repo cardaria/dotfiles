@@ -1,18 +1,4 @@
-" --- Custom Movement Keybindings based on your split keyboard layout ---
-set encoding=utf-8
-let mapleader = " "
 
-""" General settings ---------------
-set scrolloff=5
-set showmode
-set showcmd
-set visualbell
-set clipboard+=unnamed
-""" Search improvements ---------------
-set ignorecase
-set smartcase
-set incsearch
-set hlsearch
 
 " Easy visual indentation ---------------
 vnoremap < <gv
@@ -28,8 +14,8 @@ nmap OO O<Esc>n
 
 " Movement in Normal Mode ---------------
 noremap t h
-noremap n j
-noremap m k
+noremap n gj
+noremap m gk
 noremap s l
 
 noremap T H

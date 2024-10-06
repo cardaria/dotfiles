@@ -12,7 +12,7 @@ set clipboard+=unnamed
 set ignorecase
 set smartcase
 set incsearch
-set hlsearch
+
 
 " Easy visual indentation ---------------
 vnoremap < <gv
@@ -28,8 +28,8 @@ nmap OO O<Esc>n
 
 " Movement in Normal Mode ---------------
 noremap t h
-noremap n j
-noremap m k
+nnoremap n gj
+nnoremap m gk
 noremap s l
 
 noremap T H

@@ -1,11 +1,11 @@
 {
   "accentColor": "#000000",
   "showViewHeader": false,
-  "textFontFamily": "Berkeley Mono",
+  "textFontFamily": "Garamond Premr Pro",
   "interfaceFontFamily": "Berkeley Mono",
   "monospaceFontFamily": "Berkeley Mono",
-  "cssTheme": "",
-  "baseFontSize": 17,
+  "cssTheme": "Minimal",
+  "baseFontSize": 24,
   "enabledCssSnippets": [
     "custom copy"
   ]

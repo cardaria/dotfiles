@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "1. Inbox/202409211737.md",
+                "file": "6. KTH/DA1600/Uppgift 2/Uppsattsinstruktioner.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sto",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,12 +65,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 240.5
   },
   "right": {
     "id": "9a0b5733823682bb",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "1. Inbox/202409211737.md",
+                "file": "6. KTH/DA1600/Uppgift 2/Uppsattsinstruktioner.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "1. Inbox/202409211737.md",
+                "file": "6. KTH/DA1600/Uppgift 2/Uppsattsinstruktioner.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,11 +125,12 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "1. Inbox/202409211737.md"
+                "file": "6. KTH/DA1600/Uppgift 2/Uppsattsinstruktioner.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -151,18 +151,27 @@
   },
   "active": "15c2cb542b806366",
   "lastOpenFiles": [
-    "1. Inbox/202409211737.md",
-    "1. Inbox/yabai auto padding.md",
-    "1. Inbox/202409281649.md",
     "6. KTH/DA1600/Uppgift 2/Utkast.md",
+    "6. KTH/DA1600/Uppgift 2/Utkast 2.md",
+    "6. KTH/DA1600/Uppgift 2/Uppsattsinstruktioner.md",
     "2. Zettlekasten/202409211725.md",
+    "1. Inbox/202410012030.md",
+    "4. Templates/my_template.md",
+    "1. Inbox/202410012027.md",
+    "1. Inbox/202410011957.md",
+    "2. Zettlekasten/202409211737.md",
+    "1. Inbox/202410010442.md",
+    "1. Inbox/202410010439.md",
+    "1. Inbox/Untitled 1.md",
+    "1. Inbox/Untitled.md",
+    "1. Inbox/202409281649.md",
+    "1. Inbox/yabai auto padding.md",
     "6. KTH/DA1600/Uppgift 2",
     "6. KTH/DA1600",
     "6. KTH",
     "1. Inbox/202409211729.md",
     "1. Inbox/Keyboard dead keys configuration.md",
     "1. Inbox/202409211719.md",
-    "4. Templates/my_template.md",
     "1. Inbox/202409211720.md",
     "1. Inbox/202409211718.md",
     "1. Inbox/202409211717.md",
@@ -172,13 +181,7 @@
     "1. Inbox/202409211714.md",
     "3. Journal/2024-09-17.md",
     "5. Archive",
-    "Inbox/Untitled.md",
     "4. Templates",
-    "Inbox/202409211704.md",
-    "Untitled 1.md",
-    "Untitled.md",
-    "Inbox/Untitled 2.md",
-    "Inbox/Untitled 1.md",
     "2. Zettlekasten",
     "1. Inbox",
     "3. Journal"

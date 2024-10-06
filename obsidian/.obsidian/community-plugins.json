@@ -3,5 +3,8 @@
   "obsidian-latex-suite",
   "obsidian-relative-line-numbers",
   "file-cleaner-redux",
-  "vim-yank-highlight"
+  "vim-yank-highlight",
+  "obsidian-style-settings",
+  "settings-search",
+  "better-export-pdf"
 ]

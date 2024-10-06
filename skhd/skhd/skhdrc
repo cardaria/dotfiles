@@ -27,6 +27,7 @@ alt - f : /Users/cardaria/dotfiles/yabai/yabai/scripts/toggle_fullscreen.sh
 alt - r : yabai -m space --focus 1
 alt - a : yabai -m space --focus 2
 alt - e : yabai -m space --focus 3
+alt - i : yabai -m space --focus 4
 
 # balance windows
 alt - b : yabai -m space --balance
@@ -35,6 +36,7 @@ alt - b : yabai -m space --balance
 alt - p : yabai -m window --space 1 --focus
 alt - 0x2B : yabai -m window --space 2 --focus
 alt - 0x2F : yabai -m window --space 3 --focus
+alt - 0x2C : yabai -m window --space 4 --focus
 
 # toggle splitting
 alt - d : yabai -m window --toggle split
